@@ -34,7 +34,7 @@ def canonical_flops():
 
 
 if __name__ == '__main__':
-    sys.stdout.reconfigure(newline='\n')   # the same bytes as the CSV in this repository, on Windows too
+    sys.stdout.reconfigure(newline='\n')
     w = sys.stdout
     w.write('flop,weight\n')
     for flop, weight in canonical_flops():
