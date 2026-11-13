@@ -21,6 +21,17 @@ Free to use, share and ship in other tools. Details, charts and an interactive d
 Weights are deal counts: each file's weights add up to 22,100, the number of possible flops. A subset flop carries
 the combined weight of the group of flops it stands for.
 
+## Rebuild the 1,755 flops yourself
+
+`canonical_flops.py` (Python 3.8+, standard library only) enumerates all 22,100 flops, groups the ones that differ
+only by suit names (all 24 renamings of the four suits) and prints every class with its weight:
+
+```
+python canonical_flops.py > canonical_flops_1755.csv
+```
+
+The output is byte for byte the `canonical_flops_1755.csv` in this repository.
+
 ## How accurate they are
 
 The aggregated report on a subset (how often the player to act checks, bets each size, folds, calls or raises, and
