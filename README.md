@@ -100,11 +100,27 @@ Deck blueprint (100 antes, every player antes 1 and the button 1 more, a straigh
 
 ## How they were made
 
-- Reference: a full-game blueprint (6-max, 100 bb cash, 5 % rake capped at 4.5 bb) holding all 1,755 flops; its flop
-  decisions were within 0.17 % of the pot of exact solves on average in our measurements.
-- Each flop is described by its strategies on three training lines (action frequencies and range EV), its suit
-  structure and whether it is paired. Flops that play alike are grouped (weighted k-medoids, weight = how often the
-  flop is dealt); each group's most central flop enters the subset with the group's combined weight.
+Every game's subsets come from that game's own blueprint: chosen on some decisions, measured on others the selection
+never saw.
+
+| Subsets | Reference blueprint (every flop of the game) | Chosen on | Measured on |
+|---|---|---|---|
+| Hold'em (`subsets/`) | 6-max, 100 bb cash, 5 % rake capped at 4.5 bb; 1,755 flops | BTN vs BB, CO vs BB (single-raised pots); BB 3-bet vs BTN | BTN vs CO, SB vs BB, UTG vs BB (single-raised pots); SB 3-bet vs BTN |
+| PLO (`plo/`) | PLO 6-max, 100 bb cash (the one behind PulseGTO's PLO library); 1,755 flops | BTN vs BB, CO vs BB (single-raised pots); BB 3-bet vs BTN | SB vs BB, UTG vs BB, CO vs BTN (single-raised pots) |
+| Tournaments (`tournament-10bb/`, `tournament-20bb/`) | 9-max at 10 bb and at 20 bb, chip EV; 1,755 flops | BTN vs BB, SB vs BB, CO vs BB (single-raised pots) | SB limps and BB checks; HJ vs BB; CO vs BTN |
+| Short Deck (`short-deck/`) | 3-handed, 36 cards, 100 antes (every player antes 1, the button 1 more), a straight beats three of a kind, 5 % rake capped at 1.5 antes; 573 flops | Three-way limped pot; HJ opens, BTN calls; CO opens, BTN calls | CO limps, BTN checks; HJ limps, BTN isolates, HJ calls; HJ opens, CO calls |
+
+- Each flop is described by its strategies on the training lines (the first flop decision and the decision after a
+  check: how often each action is taken and the range's EV), its suit structure and whether it is paired. Flops that
+  play alike are grouped (weighted k-medoids, weight = how often the flop is dealt); each group's most central flop
+  enters the subset with the group's combined weight.
+- The errors in the tables compare a subset's aggregated report with the same blueprint's report on all of its flops
+  (flops counted by deal weight times the combos of the acting range, as an aggregated report counts them). They
+  measure the subset, not the blueprint.
+- How close the blueprints play to exact solves (the share of the pot a blueprint's strategy gives up against an exact
+  re-solve of the same spot, on average): Hold'em 0.17 % (flop decisions); Short Deck 0.35 % in limped three-way pots
+  and 1.3 % heads-up after an open (turn decisions); PLO: its card abstraction gives up 0.27 % on the flop, 0.19 % on
+  the turn and 0.14 % on the river. The tournament blueprints are not measured yet.
 
 ## Limits
 
