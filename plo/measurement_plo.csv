@@ -1,0 +1,61 @@
+subset,flops,decision,frequency_error_pts,ev_error_pct_pot,group_error_pts
+pulsegto_plo,25,"SB vs BB, single-raised pot, first decision",0.299,0.157,0.965
+pulsegto_plo,25,"SB vs BB, single-raised pot, after a check",0.463,0.071,0.801
+pulsegto_plo,25,"UTG vs BB, single-raised pot, first decision",0.362,0.729,0.830
+pulsegto_plo,25,"UTG vs BB, single-raised pot, after a check",0.500,0.350,1.366
+pulsegto_plo,25,"CO vs BTN, single-raised pot, first decision",0.299,0.327,0.710
+pulsegto_plo,25,"CO vs BTN, single-raised pot, after a check",0.318,0.660,1.044
+pulsegto_plo,25,average,0.374,0.382,0.953
+holdem_cash,25,"SB vs BB, single-raised pot, first decision",2.020,0.826,2.531
+holdem_cash,25,"SB vs BB, single-raised pot, after a check",0.866,0.185,2.008
+holdem_cash,25,"UTG vs BB, single-raised pot, first decision",1.129,0.509,1.341
+holdem_cash,25,"UTG vs BB, single-raised pot, after a check",1.322,0.365,2.087
+holdem_cash,25,"CO vs BTN, single-raised pot, first decision",0.753,0.379,1.217
+holdem_cash,25,"CO vs BTN, single-raised pot, after a check",0.619,0.902,2.058
+holdem_cash,25,average,1.118,0.528,1.874
+pulsegto_plo,49,"SB vs BB, single-raised pot, first decision",0.214,0.083,0.739
+pulsegto_plo,49,"SB vs BB, single-raised pot, after a check",0.351,0.048,1.149
+pulsegto_plo,49,"UTG vs BB, single-raised pot, first decision",0.264,0.272,0.629
+pulsegto_plo,49,"UTG vs BB, single-raised pot, after a check",0.055,0.247,0.975
+pulsegto_plo,49,"CO vs BTN, single-raised pot, first decision",0.238,0.174,0.619
+pulsegto_plo,49,"CO vs BTN, single-raised pot, after a check",0.536,0.148,0.747
+pulsegto_plo,49,average,0.276,0.162,0.810
+holdem_cash,49,"SB vs BB, single-raised pot, first decision",1.384,0.284,1.722
+holdem_cash,49,"SB vs BB, single-raised pot, after a check",0.372,0.013,0.833
+holdem_cash,49,"UTG vs BB, single-raised pot, first decision",0.579,0.481,0.800
+holdem_cash,49,"UTG vs BB, single-raised pot, after a check",0.599,0.177,1.171
+holdem_cash,49,"CO vs BTN, single-raised pot, first decision",0.137,0.262,0.681
+holdem_cash,49,"CO vs BTN, single-raised pot, after a check",0.234,0.380,0.957
+holdem_cash,49,average,0.551,0.266,1.028
+pulsegto_plo,95,"SB vs BB, single-raised pot, first decision",0.268,0.012,0.677
+pulsegto_plo,95,"SB vs BB, single-raised pot, after a check",0.243,0.038,0.517
+pulsegto_plo,95,"UTG vs BB, single-raised pot, first decision",0.023,0.237,0.208
+pulsegto_plo,95,"UTG vs BB, single-raised pot, after a check",0.280,0.105,0.750
+pulsegto_plo,95,"CO vs BTN, single-raised pot, first decision",0.136,0.131,0.332
+pulsegto_plo,95,"CO vs BTN, single-raised pot, after a check",0.256,0.107,0.634
+pulsegto_plo,95,average,0.201,0.105,0.520
+holdem_cash,95,"SB vs BB, single-raised pot, first decision",0.277,0.118,0.515
+holdem_cash,95,"SB vs BB, single-raised pot, after a check",0.408,0.222,0.654
+holdem_cash,95,"UTG vs BB, single-raised pot, first decision",0.155,0.078,0.350
+holdem_cash,95,"UTG vs BB, single-raised pot, after a check",0.200,0.113,0.561
+holdem_cash,95,"CO vs BTN, single-raised pot, first decision",0.201,0.031,0.421
+holdem_cash,95,"CO vs BTN, single-raised pot, after a check",0.392,0.266,0.639
+holdem_cash,95,average,0.272,0.138,0.523
+pulsegto_plo,184,"SB vs BB, single-raised pot, first decision",0.082,0.064,0.247
+pulsegto_plo,184,"SB vs BB, single-raised pot, after a check",0.159,0.027,0.382
+pulsegto_plo,184,"UTG vs BB, single-raised pot, first decision",0.173,0.101,0.259
+pulsegto_plo,184,"UTG vs BB, single-raised pot, after a check",0.223,0.055,0.338
+pulsegto_plo,184,"CO vs BTN, single-raised pot, first decision",0.068,0.090,0.151
+pulsegto_plo,184,"CO vs BTN, single-raised pot, after a check",0.089,0.084,0.365
+pulsegto_plo,184,average,0.132,0.070,0.290
+holdem_cash,184,"SB vs BB, single-raised pot, first decision",0.261,0.060,0.488
+holdem_cash,184,"SB vs BB, single-raised pot, after a check",0.103,0.027,0.185
+holdem_cash,184,"UTG vs BB, single-raised pot, first decision",0.195,0.029,0.273
+holdem_cash,184,"UTG vs BB, single-raised pot, after a check",0.163,0.009,0.379
+holdem_cash,184,"CO vs BTN, single-raised pot, first decision",0.244,0.035,0.311
+holdem_cash,184,"CO vs BTN, single-raised pot, after a check",0.096,0.065,0.284
+holdem_cash,184,average,0.177,0.038,0.320
+random_mean_of_200,25,average,2.194,1.108,2.904
+random_mean_of_200,49,average,1.817,0.818,2.214
+random_mean_of_200,95,average,1.396,0.608,1.635
+random_mean_of_200,184,average,1.170,0.462,1.288

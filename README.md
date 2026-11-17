@@ -45,6 +45,59 @@ that were not used to choose the subsets:
 | 95 flops | 0.25 pts | 0.24 % of the pot | 0.49 pts |
 | 184 flops | 0.13 pts | 0.19 % of the pot | 0.27 pts |
 
+## Other games
+
+Each game has its own subsets, chosen and measured the same way on that game's blueprint (details and a checker for your
+own lists: https://pulsegto.com/flop-subsets/plo, /tournaments, /short-deck). Every folder also holds
+`measurement_*.csv`: every subset on every test decision.
+
+### PLO (`plo/`)
+
+From a PLO 6-max 100 bb cash blueprint, measured on PLO decisions; the last column is our Hold'em subset
+of the same size measured on the same PLO decisions. Hold'em subsets are fine for PLO from about 95 flops; below that,
+use the PLO ones.
+
+| Subset | Action frequencies | Range EV | Inside texture groups | Hold'em subset, same size |
+|---|---|---|---|---|
+| 25 flops | 0.37 pts | 0.38 % of the pot | 0.95 pts | 1.12 pts |
+| 49 flops | 0.28 pts | 0.16 % of the pot | 0.81 pts | 0.55 pts |
+| 95 flops | 0.20 pts | 0.11 % of the pot | 0.52 pts | 0.27 pts |
+| 184 flops | 0.13 pts | 0.07 % of the pot | 0.29 pts | 0.18 pts |
+
+### Tournaments (`tournament-10bb/`, `tournament-20bb/`)
+
+From 9-max tournament blueprints (chip EV) at 10 bb and 20 bb;
+the last column is our 100 bb cash subset measured on the same tournament decisions.
+
+**10 bb**
+
+| Subset | Action frequencies | Range EV | Inside texture groups | Hold'em subset, same size |
+|---|---|---|---|---|
+| 25 flops | 1.37 pts | 1.07 % of the pot | 2.63 pts | 1.55 pts |
+| 49 flops | 1.28 pts | 1.04 % of the pot | 1.64 pts | 0.49 pts |
+| 95 flops | 0.64 pts | 0.28 % of the pot | 1.01 pts | 0.34 pts |
+| 184 flops | 0.33 pts | 0.33 % of the pot | 0.55 pts | 0.27 pts |
+
+**20 bb**
+
+| Subset | Action frequencies | Range EV | Inside texture groups | Hold'em subset, same size |
+|---|---|---|---|---|
+| 25 flops | 0.63 pts | 0.25 % of the pot | 1.40 pts | 1.74 pts |
+| 49 flops | 0.58 pts | 0.32 % of the pot | 1.03 pts | 0.51 pts |
+| 95 flops | 0.24 pts | 0.22 % of the pot | 0.51 pts | 0.23 pts |
+| 184 flops | 0.16 pts | 0.08 % of the pot | 0.28 pts | 0.12 pts |
+
+### Short Deck (`short-deck/`)
+
+36 cards (six to ace): 7,140 flops, 573 distinct; weights add up to 7,140. From a 3-handed Short
+Deck blueprint (100 antes, every player antes 1 and the button 1 more, a straight beats three of a kind).
+
+| Subset | Action frequencies | Range EV | Inside texture groups |
+|---|---|---|---|
+| 30 flops | 0.84 pts | 0.38 % of the pot | 1.81 pts |
+| 60 flops | 0.52 pts | 0.14 % of the pot | 0.90 pts |
+| 120 flops | 0.48 pts | 0.19 % of the pot | 0.64 pts |
+
 ## How they were made
 
 - Reference: a full-game blueprint (6-max, 100 bb cash, 5 % rake capped at 4.5 bb) holding all 1,755 flops; its flop
@@ -55,8 +108,8 @@ that were not used to choose the subsets:
 
 ## Limits
 
-- Chosen and measured on one game: 6-max cash at 100 bb. Other stack depths, tournaments and multiway pots are not
-  measured yet.
+- The Hold'em subsets are chosen and measured on 6-max cash at 100 bb; PLO, tournaments and Short Deck have their own
+  (above). Deeper stacks and multiway pots are not measured yet.
 - The figures describe aggregated reports (frequencies and EV summed over flops), not how well one flop's strategy
   stands in for another flop.
 
@@ -65,4 +118,4 @@ that were not used to choose the subsets:
 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/): use, share and adapt them, also in commercial tools, with
 credit: *"Flop subsets by PulseGTO — https://pulsegto.com/flop-subsets"*.
 
-Made by [PulseGTO](https://pulsegto.com), a solver for No-Limit Hold'em and Pot-Limit Omaha.
+Made by [PulseGTO](https://pulsegto.com), a solver for No-Limit Hold'em, Pot-Limit Omaha and tournaments.

@@ -1,0 +1,61 @@
+subset,flops,decision,frequency_error_pts,ev_error_pct_pot,group_error_pts
+pulsegto_mtt20,25,"SB limps, BB checks, first decision",0.636,0.313,1.275
+pulsegto_mtt20,25,"SB limps, BB checks, after a check",0.683,0.105,1.682
+pulsegto_mtt20,25,"HJ vs BB, first decision",0.281,0.459,0.601
+pulsegto_mtt20,25,"HJ vs BB, after a check",0.424,0.156,2.022
+pulsegto_mtt20,25,"CO vs BTN, first decision",0.772,0.078,1.466
+pulsegto_mtt20,25,"CO vs BTN, after a check",0.999,0.362,1.335
+pulsegto_mtt20,25,average,0.632,0.245,1.397
+holdem_cash,25,"SB limps, BB checks, first decision",1.619,0.742,2.351
+holdem_cash,25,"SB limps, BB checks, after a check",2.346,0.081,2.821
+holdem_cash,25,"HJ vs BB, first decision",0.420,0.276,0.760
+holdem_cash,25,"HJ vs BB, after a check",2.194,0.021,2.597
+holdem_cash,25,"CO vs BTN, first decision",2.321,0.021,2.672
+holdem_cash,25,"CO vs BTN, after a check",1.545,0.763,2.080
+holdem_cash,25,average,1.741,0.317,2.213
+pulsegto_mtt20,49,"SB limps, BB checks, first decision",0.430,0.201,0.935
+pulsegto_mtt20,49,"SB limps, BB checks, after a check",0.688,0.116,0.942
+pulsegto_mtt20,49,"HJ vs BB, first decision",0.049,0.049,0.468
+pulsegto_mtt20,49,"HJ vs BB, after a check",0.815,0.113,1.229
+pulsegto_mtt20,49,"CO vs BTN, first decision",0.409,0.495,0.883
+pulsegto_mtt20,49,"CO vs BTN, after a check",1.109,0.934,1.717
+pulsegto_mtt20,49,average,0.583,0.318,1.029
+holdem_cash,49,"SB limps, BB checks, first decision",0.580,0.052,1.129
+holdem_cash,49,"SB limps, BB checks, after a check",0.609,0.038,1.149
+holdem_cash,49,"HJ vs BB, first decision",0.180,0.360,0.586
+holdem_cash,49,"HJ vs BB, after a check",0.224,0.073,1.027
+holdem_cash,49,"CO vs BTN, first decision",0.765,0.336,1.382
+holdem_cash,49,"CO vs BTN, after a check",0.699,0.371,1.180
+holdem_cash,49,average,0.509,0.205,1.076
+pulsegto_mtt20,95,"SB limps, BB checks, first decision",0.222,0.257,0.387
+pulsegto_mtt20,95,"SB limps, BB checks, after a check",0.424,0.140,0.563
+pulsegto_mtt20,95,"HJ vs BB, first decision",0.268,0.148,0.300
+pulsegto_mtt20,95,"HJ vs BB, after a check",0.081,0.286,0.438
+pulsegto_mtt20,95,"CO vs BTN, first decision",0.213,0.029,0.811
+pulsegto_mtt20,95,"CO vs BTN, after a check",0.218,0.455,0.562
+pulsegto_mtt20,95,average,0.238,0.219,0.510
+holdem_cash,95,"SB limps, BB checks, first decision",0.234,0.155,0.321
+holdem_cash,95,"SB limps, BB checks, after a check",0.255,0.716,0.459
+holdem_cash,95,"HJ vs BB, first decision",0.033,0.181,0.256
+holdem_cash,95,"HJ vs BB, after a check",0.280,0.210,0.615
+holdem_cash,95,"CO vs BTN, first decision",0.338,0.254,0.448
+holdem_cash,95,"CO vs BTN, after a check",0.260,0.848,0.657
+holdem_cash,95,average,0.233,0.394,0.459
+pulsegto_mtt20,184,"SB limps, BB checks, first decision",0.202,0.057,0.256
+pulsegto_mtt20,184,"SB limps, BB checks, after a check",0.028,0.075,0.218
+pulsegto_mtt20,184,"HJ vs BB, first decision",0.002,0.024,0.094
+pulsegto_mtt20,184,"HJ vs BB, after a check",0.120,0.007,0.352
+pulsegto_mtt20,184,"CO vs BTN, first decision",0.114,0.090,0.238
+pulsegto_mtt20,184,"CO vs BTN, after a check",0.473,0.256,0.515
+pulsegto_mtt20,184,average,0.156,0.085,0.279
+holdem_cash,184,"SB limps, BB checks, first decision",0.080,0.022,0.245
+holdem_cash,184,"SB limps, BB checks, after a check",0.248,0.021,0.313
+holdem_cash,184,"HJ vs BB, first decision",0.168,0.269,0.177
+holdem_cash,184,"HJ vs BB, after a check",0.111,0.012,0.296
+holdem_cash,184,"CO vs BTN, first decision",0.028,0.259,0.241
+holdem_cash,184,"CO vs BTN, after a check",0.079,0.249,0.374
+holdem_cash,184,average,0.119,0.139,0.274
+random_mean_of_200,25,average,1.876,1.356,2.772
+random_mean_of_200,49,average,1.355,1.109,1.986
+random_mean_of_200,95,average,0.967,0.954,1.405
+random_mean_of_200,184,average,0.711,0.874,1.012

@@ -1,0 +1,25 @@
+subset,flops,decision,frequency_error_pts,ev_error_pct_pot,group_error_pts
+pulsegto_sd,30,"CO limps, BTN checks, first decision",0.679,0.273,0.725
+pulsegto_sd,30,"CO limps, BTN checks, after a check",1.953,0.635,2.093
+pulsegto_sd,30,"HJ limps, BTN isolates, HJ calls, first decision",0.617,0.286,1.727
+pulsegto_sd,30,"HJ limps, BTN isolates, HJ calls, after a check",0.340,0.512,2.405
+pulsegto_sd,30,"HJ opens, CO calls, first decision",0.501,0.109,1.427
+pulsegto_sd,30,"HJ opens, CO calls, after a check",0.930,0.489,2.458
+pulsegto_sd,30,average,0.837,0.384,1.806
+pulsegto_sd,60,"CO limps, BTN checks, first decision",0.203,0.051,0.526
+pulsegto_sd,60,"CO limps, BTN checks, after a check",0.198,0.123,0.439
+pulsegto_sd,60,"HJ limps, BTN isolates, HJ calls, first decision",0.886,0.056,0.969
+pulsegto_sd,60,"HJ limps, BTN isolates, HJ calls, after a check",0.763,0.356,1.395
+pulsegto_sd,60,"HJ opens, CO calls, first decision",0.532,0.175,1.083
+pulsegto_sd,60,"HJ opens, CO calls, after a check",0.562,0.104,0.970
+pulsegto_sd,60,average,0.524,0.144,0.897
+pulsegto_sd,120,"CO limps, BTN checks, first decision",0.473,0.106,0.457
+pulsegto_sd,120,"CO limps, BTN checks, after a check",0.594,0.208,0.787
+pulsegto_sd,120,"HJ limps, BTN isolates, HJ calls, first decision",0.138,0.072,0.373
+pulsegto_sd,120,"HJ limps, BTN isolates, HJ calls, after a check",0.412,0.051,0.824
+pulsegto_sd,120,"HJ opens, CO calls, first decision",0.696,0.120,0.729
+pulsegto_sd,120,"HJ opens, CO calls, after a check",0.568,0.597,0.644
+pulsegto_sd,120,average,0.480,0.192,0.636
+random_mean_of_200,30,average,2.139,1.264,3.193
+random_mean_of_200,60,average,1.462,0.945,2.189
+random_mean_of_200,120,average,0.999,0.860,1.442
