@@ -67,7 +67,8 @@ use the PLO ones.
 ### Tournaments (`tournament-10bb/`, `tournament-20bb/`)
 
 From 9-max tournament blueprints (chip EV) at 10 bb and 20 bb;
-the last column is our 100 bb cash subset measured on the same tournament decisions.
+At 20 bb the tournament 25 is clearly the better small subset. At 10 bb small subsets are weak either way: the cash 49.
+did better than the 10 bb 49 on all three measures, so take that one or the 10 bb 95 or 184.
 
 **10 bb**
 
